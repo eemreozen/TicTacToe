@@ -9,6 +9,7 @@ int main()
 
     while (t.getGameState())
     {
+
         t.receiveInput();
     }
 

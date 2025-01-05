@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/TicTacToe/cmake-build-debug",
-		"source" : "C:/TicTacToe"
+		"build" : "C:/GithubFiles/TicTacToe/cmake-build-debug",
+		"source" : "C:/GithubFiles/TicTacToe"
 	},
 	"version" : 
 	{

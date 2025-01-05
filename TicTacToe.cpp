@@ -11,6 +11,7 @@ TicTacToe::TicTacToe()
         cell[i].number = i + 1;
         cell[i].gameInput = ' ';
     }
+    round = 0;
 }
 
 
@@ -26,6 +27,7 @@ void TicTacToe::printBoard()
 void TicTacToe::updateBoard(int _input, char _gameInput)
 {
     cell[_input - 1].gameInput = _gameInput;
+    round++;
     printBoard();
     checkGameState();
 }
@@ -79,12 +81,14 @@ void TicTacToe::checkGameState()
             return;
         }
     }
+
+    if (round == 9)
+    {
+        std::cout << "Draw!" << std::endl;
+        gameState = false;
+        return;
+    }
 }
-/*
-    * 0 1 2
-    * 3 4 5
-    * 6 7 8
-    */
 
 
 void TicTacToe::receiveInput()

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/TicTacToe/cmake-build-debug"
+			"value" : "c:/GithubFiles/TicTacToe/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/TicTacToe/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/GithubFiles/TicTacToe/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/TicTacToe"
+			"value" : "C:/GithubFiles/TicTacToe"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/TicTacToe/cmake-build-debug"
+			"value" : "C:/GithubFiles/TicTacToe/cmake-build-debug"
 		},
 		{
 			"name" : "TicTacToe_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/TicTacToe"
+			"value" : "C:/GithubFiles/TicTacToe"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

@@ -34,7 +34,7 @@ public:
 private:
 
 
-
+    int round;
     Cell cell[9];
 
     bool gameState = true;
